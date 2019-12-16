@@ -1,0 +1,45 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background-image: linear-gradient(#F404A7, #FA557F);
+}
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+table{
+ border-radius: 5px;
+  position: absolute;
+  background-image: linear-gradient(45deg,#DC428F, #D93A26);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+}
+td{
+padding:15px;
+height:95%;
+color:white;
+}
+input{
+width:100%;
+height:45px;
+background-color:white;
+font-size:50px;
+}
+button{
+width: 100px;
+height: 70px;
+  background-color: #ee9227;
+  border-radius: 1%;
+  transition: transform .2s; /* Animation */
+  border: none;
+  font-size: 4rem;
+  color: rgb(238, 234, 234);
+}
+button:hover{
+color: rgb(255, 255, 255);
+transform: scale(1.2);
+font-weight:bold;
+}
